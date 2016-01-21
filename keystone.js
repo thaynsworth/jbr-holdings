@@ -13,15 +13,15 @@ keystone.init({
 
 	'name': 'JBR Holdings',
 	'brand': 'JBR Holdings',
-	
+
 	'sass': 'public',
 	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'jade',
-	
+
 	'emails': 'templates/emails',
-	
+
 	'auto update': true,
 	'session': true,
 	'auth': true,
@@ -93,6 +93,8 @@ keystone.set('nav', {
 	'enquiries': 'enquiries',
 	'users': 'users'
 });
+
+keystone.set('google api key', 'AIzaSyBlO5DMnTg5ZZ-q9e-oNrDYprpUg72wyBo');
 
 // Start Keystone to connect to your database and initialise the web server
 
