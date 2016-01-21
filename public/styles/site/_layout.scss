@@ -43,10 +43,25 @@ html, body {
     font-family: $BrandonBld;
   }
 
+  .form-control {
+    border: 1px solid black;
+    border-radius: 1px;
+  }
+
   .submit-btn {
     width: 100%;
     height: 3em;
     font-family: $BrandonBld;
+  }
+
+  button {
+    background-color: white;
+    transition: 0.3s;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
   }
 
   ul {
@@ -66,3 +81,29 @@ html, body {
   width: 100%;
   border: 1px solid black;
 }
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    opacity:  1;
+    color:    #f21c1c;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #f21c1c;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #f21c1c;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #f21c1c;
+   opacity:  1;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #f21c1c;
+  opacity:  1;
+}
+
+
+
+
