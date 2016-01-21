@@ -1,3 +1,24 @@
 // Override Bootstrap variables in this file, e.g.
+@font-face {
+font-family: BrandonReg;
+src: url("../fonts/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+font-family: BrandonThin;
+src: url("../fonts/Brandon_thin.otf") format("opentype");
+}
+
+@font-face {
+font-family: BrandonBld;
+src: url("../fonts/Brandon_bld.otf") format("opentype");
+}
+
+$BrandonBld: BrandonBld, Helvetica, Verdana, Sans-Serif;
+$BrandonReg: BrandonReg, Helvetica, Verdana, Sans-Serif;
+$BrandonThin: BrandonThin, Helvetica, Verdana, Sans-Serif;
+
 
 $font-size-base: 14px;
+
+

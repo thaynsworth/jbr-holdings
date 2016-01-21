@@ -5821,13 +5821,26 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: BrandonReg;
+  src: url("../fonts/Brandon_reg.otf") format("opentype"); }
+
+@font-face {
+  font-family: BrandonThin;
+  src: url("../fonts/Brandon_thin.otf") format("opentype"); }
+
+@font-face {
+  font-family: BrandonBld;
+  src: url("../fonts/Brandon_bld.otf") format("opentype"); }
+
 * {
   margin: 0;
   padding: 0; }
 
 html, body {
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: BrandonReg, Helvetica, Verdana, Sans-Serif; }
 
 #body {
   position: absolute;
@@ -5845,23 +5858,25 @@ html, body {
     height: 50%;
     width: 50%; }
   #header-section h3 {
-    float: right; }
+    float: right;
+    font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
 
 #body-section {
   margin-top: 3%; }
   #body-section h4 {
-    text-align: center; }
+    text-align: center;
+    font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
   #body-section .submit-btn {
     width: 100%;
     height: 3em;
-    backgound-color: none;
-    border-radius: none; }
+    font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
   #body-section ul {
     list-style-type: none;
     text-align: center;
     margin-top: 2%; }
     #body-section ul li {
-      margin-top: 1%; }
+      margin-top: 1%;
+      font-family: BrandonReg, Helvetica, Verdana, Sans-Serif; }
 
 #map {
   height: 300px;
