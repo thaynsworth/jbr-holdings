@@ -5842,6 +5842,9 @@ html, body {
   overflow: hidden;
   font-family: BrandonReg, Helvetica, Verdana, Sans-Serif; }
 
+a, a:hover, a:visited {
+  text-decoration: none; }
+
 #body {
   position: absolute;
   overflow: auto;
@@ -5860,9 +5863,11 @@ html, body {
   #header-section h3 {
     float: right;
     font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
+    #header-section h3 span {
+      display: none; }
 
 #body-section {
-  margin-top: 3%; }
+  margin-top: 2%; }
   #body-section h4 {
     text-align: center;
     font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
@@ -5882,37 +5887,35 @@ html, body {
   #body-section ul {
     list-style-type: none;
     text-align: center;
-    margin-top: 2%; }
+    margin-top: 4%; }
     #body-section ul li {
       margin-top: 1%;
-      font-family: BrandonReg, Helvetica, Verdana, Sans-Serif; }
+      font-family: BrandonReg, Helvetica, Verdana, Sans-Serif;
+      color: black; }
+      #body-section ul li a {
+        color: black; }
 
 #map {
   height: 300px;
   width: 100%;
   border: 1px solid black; }
 
-::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
-  opacity: 1;
-  color: #f21c1c; }
-
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #f21c1c;
-  opacity: 1; }
-
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #f21c1c;
-  opacity: 1; }
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #f21c1c;
-  opacity: 1; }
-
-:placeholder-shown {
-  /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color: #f21c1c;
-  opacity: 1; }
+@media (max-width: 768px) {
+  #header-section {
+    text-align: center; }
+    #header-section img {
+      height: 70%;
+      width: 70%; }
+    #header-section h3 {
+      float: none;
+      font-size: 1em;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+      font-weight: bold; }
+      #header-section h3 span {
+        display: inline; }
+  #body-section .divider {
+    border-top: 1px solid black;
+    padding-top: 4%; } }
