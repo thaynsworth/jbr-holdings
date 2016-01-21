@@ -15,7 +15,17 @@ html, body {
   right: 0;
   top: 0;
   bottom: 0;
-  border: 8px solid black;
+  border: 15px solid #000000;
+}
+
+#header-section {
+  // margin-bottom: 5%;
+
+  img {
+    margin: 3%;
+    height: 50%;
+    width: 50%;
+  }
 }
 
 #map {

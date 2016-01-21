@@ -94,8 +94,6 @@ keystone.set('nav', {
 	'users': 'users'
 });
 
-keystone.set('google api key', 'AIzaSyBlO5DMnTg5ZZ-q9e-oNrDYprpUg72wyBo');
-
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();
