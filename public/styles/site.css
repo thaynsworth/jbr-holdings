@@ -5867,7 +5867,8 @@ a, a:hover, a:visited {
       display: none; }
 
 #body-section {
-  margin-top: 2%; }
+  margin-top: 1%;
+  margin-bottom: 3%; }
   #body-section h4 {
     text-align: center;
     font-family: BrandonBld, Helvetica, Verdana, Sans-Serif; }
@@ -5916,6 +5917,8 @@ a, a:hover, a:visited {
       font-weight: bold; }
       #header-section h3 span {
         display: inline; }
-  #body-section .divider {
-    border-top: 1px solid black;
-    padding-top: 4%; } }
+  #body-section {
+    margin-bottom: 20%; }
+    #body-section .divider {
+      border-top: 1px solid black;
+      padding-top: 4%; } }
