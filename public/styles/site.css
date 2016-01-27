@@ -5855,7 +5855,7 @@ a, a:hover, a:visited {
   border: 15px solid #000000; }
 
 #header-section {
-  padding: 2%; }
+  padding: 6% 2% 2% 2%; }
   #header-section img {
     margin: 3%;
     height: 50%;
@@ -5927,4 +5927,4 @@ a, a:hover, a:visited {
     margin-bottom: 20%; }
     #body-section .divider {
       border-top: 1px solid black;
-      padding-top: 4%; } }
+      padding-top: 16%; } }

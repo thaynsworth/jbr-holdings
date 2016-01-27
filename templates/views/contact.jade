@@ -45,11 +45,11 @@ block content
 					form(method='post')
 						input(type='hidden', name='action', value='contact')
 						.form-group(class=validationErrors.name ? 'has-error' : null)
-							input(type='text', name='name.full', placeholder='NAME' value=formData['name.full']).form-control
+							input(style='height:34px; line-height:20px;', type='text', name='name.full', placeholder='NAME' value=formData['name.full']).form-control
 						.form-group(class=validationErrors.email ? 'has-error' : null)
-							input(type='email', name='email', placeholder='EMAIL' value=formData.email).form-control
+							input(style='height:34px; line-height:20px;', type='email', name='email', placeholder='EMAIL' value=formData.email).form-control
 						.form-group(class=validationErrors.message ? 'has-error' : null)
-							textarea(name='message', placeholder='MESSAGE' rows=7).form-control= formData.message
+							textarea(style='padding-top:8px;' name='message', placeholder='MESSAGE' rows=7).form-control= formData.message
 						.form-actions
 							button(type='submit').submit-btn SUBMIT
 					ul
