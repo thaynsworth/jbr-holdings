@@ -25,7 +25,7 @@ a, a:hover, a:visited {
 }
 
 #header-section {
-  padding: 6% 2% 2% 2%;
+  padding: 2%;
 
   img {
     margin: 3%;
@@ -111,6 +111,7 @@ a, a:hover, a:visited {
 
   #header-section {
     text-align: center;
+    padding: 6% 2% 2% 2%;
 
     img {
       height: 70%;
@@ -139,6 +140,11 @@ a, a:hover, a:visited {
       border-top: 1px solid black;
       padding-top: 16%;
     }
+  }
+
+  #map {
+    width: 75%;
+    margin: auto;
   }
 }
 
