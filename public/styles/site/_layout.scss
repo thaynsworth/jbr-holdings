@@ -8,6 +8,8 @@ html, body {
   height: 100%;
   overflow: hidden;
   font-family: $BrandonReg;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
 }
 
 a, a:hover, a:visited {

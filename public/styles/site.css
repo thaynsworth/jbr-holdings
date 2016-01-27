@@ -5840,7 +5840,9 @@ button.close {
 html, body {
   height: 100%;
   overflow: hidden;
-  font-family: BrandonReg, Helvetica, Verdana, Sans-Serif; }
+  font-family: BrandonReg, Helvetica, Verdana, Sans-Serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll; }
 
 a, a:hover, a:visited {
   text-decoration: none; }
