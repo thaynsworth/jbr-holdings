@@ -26,6 +26,30 @@ a, a:hover, a:visited {
   border: 15px solid #000000;
 }
 
+#email-conf {
+  margin-top: 20%;
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+
+  a {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 6px 50px;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}
+
 #header-section {
   padding: 2%;
 

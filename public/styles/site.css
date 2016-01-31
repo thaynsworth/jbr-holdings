@@ -5856,6 +5856,23 @@ a, a:hover, a:visited {
   bottom: 0;
   border: 15px solid #000000; }
 
+#email-conf {
+  margin-top: 20%; }
+  #email-conf h3 {
+    font-size: 30px;
+    margin-bottom: 5%; }
+  #email-conf a {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 6px 50px;
+    color: black;
+    background-color: white;
+    transition: 0.3s; }
+    #email-conf a:hover {
+      color: white;
+      background-color: black; }
+
 #header-section {
   padding: 2%; }
   #header-section img {
