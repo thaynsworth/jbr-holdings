@@ -1,6 +1,6 @@
 // Simulate config options from your production environment by
 // customising the .env file in your project's root folder.
-require('dotenv').load();
+// require('dotenv').load();
 
 // Require keystone
 var keystone = require('keystone');
@@ -33,6 +33,10 @@ keystone.init({
 // Load your project's Models
 
 keystone.import('models');
+
+keystone.set('cloudinary config', process.env.JBR_CLOUDINARY_URL);
+keystone.set('mandrill api key', process.env.JBR_MANDRILL_API_KEY);
+keystone.set('mandrill username', process.env.JBR_MANDRILL_USERNAME);
 
 // Setup common locals for your templates. The following are required for the
 // bundled templates and layouts. Any runtime locals (that should be set uniquely
