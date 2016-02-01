@@ -13,7 +13,7 @@ exports.create = {
 	]
 };
 
-/*
+
 
 // This is the long-hand version of the functionality above:
 
@@ -22,7 +22,7 @@ var keystone = require('keystone'),
 	User = keystone.list('User');
 
 var admins = [
-	{ email: 'user@keystonejs.com', password: 'admin', name: { first: 'Admin', last: 'User' } }
+	{ email: 'mjfloyd25@gmail.com', password: 'abcd1234', name: { first: 'Mary', last: 'Floyd' }, isAdmin: true }
 ];
 
 function createAdmin(admin, done) {
@@ -46,4 +46,4 @@ exports = module.exports = function(done) {
 	async.forEach(admins, createAdmin, done);
 };
 
-*/
+
