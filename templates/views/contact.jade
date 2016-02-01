@@ -45,8 +45,8 @@ block content
 						li SAN ANTONIO, TEXAS 78209
 				.col-xs-12.col-sm-6.col-md-4.col-md-offset-1
 					h4.divider CONTACT US
-					form(method='post', action='/')
-						input(type='hidden', name='action', value='contact')
+					form(method='post')
+						input(type='hidden', name='action', value='/')
 						.form-group(class=validationErrors.name ? 'has-error' : null)
 							input(style='height:34px; line-height:20px;', type='text', name='name.full', placeholder='NAME' value=formData['name.full']).form-control
 						.form-group(class=validationErrors.email ? 'has-error' : null)
