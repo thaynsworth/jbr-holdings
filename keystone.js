@@ -34,7 +34,7 @@ keystone.init({
 
 keystone.import('models');
 
-keystone.set('cloudinary config', process.env.CLOUDINARY_URL);
+keystone.set('cloudinary config', process.env.JBR_CLOUDINARY_URL);
 keystone.set('mandrill api key', process.env.JBR_MANDRILL_API_KEY);
 keystone.set('mandrill username', process.env.JBR_MANDRILL_USERNAME);
 
